@@ -1,0 +1,38 @@
+PDF: papers/2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine.pdf
+Total pages: 33
+Pages per chunk: 1
+
+Chunks:
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_001.pdf: page 1
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_002.pdf: page 2
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_003.pdf: page 3
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_004.pdf: page 4
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_005.pdf: page 5
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_006.pdf: page 6
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_007.pdf: page 7
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_008.pdf: page 8
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_009.pdf: page 9
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_010.pdf: page 10
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_011.pdf: page 11
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_012.pdf: page 12
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_013.pdf: page 13
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_014.pdf: page 14
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_015.pdf: page 15
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_016.pdf: page 16
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_017.pdf: page 17
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_018.pdf: page 18
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_019.pdf: page 19
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_020.pdf: page 20
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_021.pdf: page 21
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_022.pdf: page 22
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_023.pdf: page 23
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_024.pdf: page 24
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_025.pdf: page 25
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_026.pdf: page 26
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_027.pdf: page 27
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_028.pdf: page 28
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_029.pdf: page 29
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_030.pdf: page 30
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_031.pdf: page 31
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_032.pdf: page 32
+  2601.18483v1_Funny_or_Persuasive,_but_Not_Both:_Evaluating_Fine_chunk_033.pdf: page 33

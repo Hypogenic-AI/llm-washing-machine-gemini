@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "washing": 1,
+    "washing_machine": 0,
+    "other_machine": 171
+  },
+  "metrics": {
+    "sim_wm_vs_m_other": NaN,
+    "sim_diff_vs_washing": -0.8971621195371551
+  }
+}

@@ -1,0 +1,25 @@
+\section{Methodology}
+
+\subsection{Model and Data}
+We analyze \gpt, a 12-layer transformer model with 117M parameters. We focus on the residual stream activations at the output of the final layer (\texttt{blocks.11.hook\_resid\_post}) before the unembedding matrix, as this represents the final semantic state used for next-token prediction.
+
+To avoid the confounds of natural text (where ``washing machine'' might appear in unique contexts compared to ``sewing machine''), we constructed a synthetic dataset using template-based generation. The dataset contains 240 examples across three categories:
+\begin{enumerate}
+    \item \textbf{Target (Washing Machine):} Sentences like ``The washing machine is broken.''
+    \item \textbf{Control (Other/Generic Machine):} Sentences like ``The sewing machine is broken'' or ``The machine is broken.''
+    \item \textbf{Modifier Source (Washing Verb):} Sentences like ``I am washing the car.''
+\end{enumerate}
+
+\subsection{Analysis Metrics}
+We extract the activation vector $\vv \in \R^{768}$ for specific tokens of interest.
+\begin{itemize}
+    \item $\vm_{WM}$: The vector for the token ` machine` when preceded by ` washing`.
+    \item $\vm_{Other}$: The vector for the token ` machine` in control contexts.
+    \item $\vw_{Verb}$: The vector for the token ` washing` when used as a verb.
+\end{itemize}
+
+We employ Cosine Similarity to measure the alignment between these vectors. To test for compositionality, we compute the difference vector $\Delta = \vm_{WM} - \vm_{Other}$ and measure its similarity to the modifier vector $\vw_{Verb}$.
+\begin{equation}
+    \text{Sim}(\Delta, \vw_{Verb}) = \frac{\Delta \cdot \vw_{Verb}}{\|\Delta\| \|\vw_{Verb}\|}
+\end{equation}
+If the representation is purely compositional, $\Delta$ should align with $\vw_{Verb}$. If ``washing machine'' is an atomic orthogonal concept, $\Delta$ should be orthogonal to $\vw_{Verb}$ (assuming high-dimensional random placement).

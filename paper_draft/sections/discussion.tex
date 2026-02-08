@@ -1,0 +1,5 @@
+\section{Discussion}
+
+The high similarity between the generic and specific ``machine'' vectors ($>0.98$) provides strong evidence against the theory that common noun phrases are stored as distinct, orthogonal atomic concepts. Instead, \gpt appears to employ a computationally efficient strategy of **linear compositionality**.
+
+The ``machine'' subspace acts as a stable anchor, and specific types of machines are represented as small perturbations within this subspace. Crucially, the direction of this perturbation is not random; it is semantically guided by the modifier's concept vector. The observation that the alignment is $0.35$ rather than $1.0$ is insightful: it suggests that the composition is not a naive summation ($\vv_{WM} = \vv_{M} + \vv_{W}$). If it were, the model would hallucinate that a washing machine is currently performing the action of washing, or has grammatical properties of a verb. Instead, it appears that only a subset of the ``washing'' features---likely those related to water and cleaning---are projected onto the machine vector.

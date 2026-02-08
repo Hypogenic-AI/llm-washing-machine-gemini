@@ -1,0 +1,27 @@
+{
+  "success": false,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/data/hypogenicai/workspaces/llm-washing-machine-gemini/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/data/hypogenicai/workspaces/llm-washing-machine-gemini/literature_review.md",
+        "resources_catalog": "/data/hypogenicai/workspaces/llm-washing-machine-gemini/resources.md",
+        "papers_dir": "/data/hypogenicai/workspaces/llm-washing-machine-gemini/papers",
+        "datasets_dir": "/data/hypogenicai/workspaces/llm-washing-machine-gemini/datasets",
+        "code_dir": "/data/hypogenicai/workspaces/llm-washing-machine-gemini/code"
+      },
+      "log_file": "/data/hypogenicai/workspaces/llm-washing-machine-gemini/logs/resource_finder_gemini.log",
+      "transcript_file": "/data/hypogenicai/workspaces/llm-washing-machine-gemini/logs/resource_finder_gemini_transcript.jsonl",
+      "elapsed_time": 1060.661542892456
+    },
+    "experiment_runner": {
+      "success": false,
+      "return_code": 1,
+      "elapsed_time": 691.7708125114441,
+      "log_file": "/data/hypogenicai/workspaces/llm-washing-machine-gemini/logs/execution_gemini.log",
+      "transcript_file": "/data/hypogenicai/workspaces/llm-washing-machine-gemini/logs/execution_gemini_transcript.jsonl"
+    }
+  },
+  "work_dir": "/data/hypogenicai/workspaces/llm-washing-machine-gemini"
+}

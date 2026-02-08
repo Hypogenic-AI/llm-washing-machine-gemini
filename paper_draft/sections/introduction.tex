@@ -1,0 +1,14 @@
+\section{Introduction}
+
+How do Large Language Models (LLMs) represent the world? A prevailing hypothesis in mechanistic interpretability is the Linear Representation Hypothesis, which posits that concepts are represented as directions in the activation space of the model. While this has been empirically validated for atomic concepts like ``truth'' or ``sentiment,'' the representation of composite concepts---such as noun phrases like ``washing machine''---remains an open question. Does the model learn a specific, orthogonal direction for ``washing machine'' that is distinct from ``washing'' and ``machine,'' effectively treating it as a new atomic token? Or does it represent the compound dynamically by superimposing the features of the modifier onto the head noun?
+
+This question touches on the fundamental efficiency of neural representations. If models learned unique vectors for every possible noun phrase, they would quickly exhaust their representational capacity, a phenomenon known as the curse of dimensionality. Conversely, a purely compositional representation allows for combinatorial generalization but raises questions about how specific properties (e.g., that a washing machine uses water) are bound to the object without interfering with other features.
+
+In this paper, we empirically investigate the representation of the noun phrase ``washing machine'' in \gpt. We test the hypothesis that the model relies on atomic concepts (``washing'', ``machine'') and composes them linearly. We employ linear probing on the residual stream of the final layer, using a generated synthetic dataset to strictly control for contextual confounders.
+
+Our contributions are as follows:
+\begin{itemize}
+    \item We demonstrate that the vector representation of the ``machine'' token is highly stable across different machine types (washing, sewing, generic), supporting the existence of a robust ``machine'' subspace.
+    \item We quantify the ``compositional delta''---the vector difference between ``washing machine'' and generic ``machine''---and show that it is significantly aligned with the ``washing'' verb vector.
+    \item We provide evidence against the existence of a distinct, orthogonal ``washing machine'' direction in \gpt, supporting a compositional view of concept representation.
+\end{itemize}

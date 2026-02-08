@@ -1,0 +1,10 @@
+\section{Related Work}
+
+\paragraph{Mechanistic Interpretability and Superposition}
+Our work builds on the foundational studies of \citet{elhage2022toy}, which demonstrated that neural networks can store more features than they have dimensions by placing them in superposition. This implies that concepts need not be orthogonal to be distinct. However, our finding that ``washing machine'' is nearly parallel to ``machine'' suggests a different mechanism than the interference-based superposition described in toy models; rather, it suggests a hierarchical composition.
+
+\paragraph{Linear Representation Hypothesis}
+\citet{xu2024exploring} empirically confirmed that abstract human values are represented as linear directions in the residual stream, consistent across languages. We extend this line of inquiry from abstract values to concrete composite nouns, validating that the linear arithmetic of concepts ($v_{compound} \approx v_{head} + v_{modifier}$) holds even for common household objects.
+
+\paragraph{Polysemanticity and Concept Binding}
+The challenge of disentangling polysemantic neurons---neurons that respond to unrelated features---is addressed by \citet{foote2024tackling} using neuron embeddings. While we analyze the residual stream (a population-level representation) rather than individual neurons, our work relates to the problem of attribute binding. \citet{labroo2026funny} highlighted the difficulty LLMs face in fine-grained multi-concept control, suggesting that binding attributes (like ``funny'' or ``persuasive'') is non-trivial. Our results show that for noun phrases, this binding appears to be implemented via simple vector addition.

@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "washing_verb": 50,
+    "washing_in_wm": 50,
+    "washing_machine_token": 50,
+    "other_machine": 140
+  },
+  "metrics": {
+    "sim_washing_contexts": 0.9375004768371582,
+    "sim_machine_contexts": 0.9870290160179138,
+    "sim_diff_vs_washing": 0.35146766901016235
+  }
+}

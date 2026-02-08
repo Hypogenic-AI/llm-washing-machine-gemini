@@ -1,0 +1,28 @@
+PDF: papers/2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in.pdf
+Total pages: 23
+Pages per chunk: 1
+
+Chunks:
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_001.pdf: page 1
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_002.pdf: page 2
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_003.pdf: page 3
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_004.pdf: page 4
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_005.pdf: page 5
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_006.pdf: page 6
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_007.pdf: page 7
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_008.pdf: page 8
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_009.pdf: page 9
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_010.pdf: page 10
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_011.pdf: page 11
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_012.pdf: page 12
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_013.pdf: page 13
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_014.pdf: page 14
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_015.pdf: page 15
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_016.pdf: page 16
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_017.pdf: page 17
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_018.pdf: page 18
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_019.pdf: page 19
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_020.pdf: page 20
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_021.pdf: page 21
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_022.pdf: page 22
+  2402.18120v3_Exploring_Multilingual_Concepts_of_Human_Values_in_chunk_023.pdf: page 23

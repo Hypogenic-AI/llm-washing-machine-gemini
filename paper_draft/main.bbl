@@ -1,0 +1,34 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Elhage et~al.(2022)Elhage, Hume, Olsson, Schiefer, Henighan, Kravec,
+  Hatfield-Dodds, Lasenby, Drain, Chen, et~al.]{elhage2022toy}
+Nelson Elhage, Tristan Hume, Catherine Olsson, Nicholas Schiefer, Tom Henighan,
+  Shauna Kravec, Zac Hatfield-Dodds, Robert Lasenby, Dawn Drain, Carol Chen,
+  et~al.
+\newblock Toy models of superposition.
+\newblock \emph{arXiv preprint arXiv:2209.10652}, 2022.
+
+\bibitem[Foote(2024)]{foote2024tackling}
+Alex Foote.
+\newblock Tackling polysemanticity with neuron embeddings.
+\newblock \emph{arXiv preprint arXiv:2411.08166}, 2024.
+
+\bibitem[Labroo et~al.(2026)Labroo, Sheth, Raina, Ahmed, and
+  Fritz]{labroo2026funny}
+Arya Labroo, Ivaxi Sheth, Vyas Raina, Amaani Ahmed, and Mario Fritz.
+\newblock Funny or persuasive, but not both: Evaluating fine-grained
+  multi-concept control in llms.
+\newblock \emph{arXiv preprint arXiv:2601.18483}, 2026.
+
+\bibitem[Xu et~al.(2024)Xu, Dong, Guo, Wu, and Xiong]{xu2024exploring}
+Shaoyang Xu, Weilong Dong, Zishan Guo, Xinwei Wu, and Deyi Xiong.
+\newblock Exploring multilingual concepts of human values in large language
+  models.
+\newblock \emph{arXiv preprint arXiv:2402.18120}, 2024.
+
+\end{thebibliography}

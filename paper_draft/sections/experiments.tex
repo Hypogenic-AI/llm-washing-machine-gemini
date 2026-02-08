@@ -1,0 +1,29 @@
+\section{Experiments and Results}
+
+\subsection{Stability of the Head Noun}
+We first examine whether the ``machine'' token retains its identity when modified. We computed the cosine similarity between the mean activation vector of ``machine'' in the target context ($\vm_{WM}$) and in the control contexts ($\vm_{Other}$). 
+
+\begin{table}[h]
+\centering
+\caption{Cosine Similarity Analysis of Concept Vectors}
+\begin{tabular}{lc}
+\toprule
+Comparison & Cosine Similarity \\
+\midrule
+$\vm_{WM}$ vs. $\vm_{Other}$ & \textbf{0.9870} \\
+$\vw_{Verb}$ vs. $\vw_{in\_WM}$ & 0.9375 \\
+($\vm_{WM} - \vm_{Other}$) vs. $\vw_{Verb}$ & 0.3515 \\
+\bottomrule
+\end{tabular}
+\label{tab:results}
+\end{table}
+
+As shown in Table \ref{tab:results}, the similarity is extremely high ($0.9870$). This indicates that the model does not project ``washing machine'' into a completely different subspace; the token fundamentally remains a ``machine.''
+
+\subsection{Stability of the Modifier}
+We also validated the stability of the ``washing'' concept. The similarity between ``washing'' used as a verb (``washing the car'') and as an adjective (``washing machine'') is $0.9375$. This confirms that the model uses a consistent representation for ``washing'' regardless of its part of speech, enabling us to use the verb vector as a proxy for the abstract concept.
+
+\subsection{The Compositional Delta}
+Finally, we analyzed the nature of the modification. The difference vector $\Delta = \vm_{WM} - \vm_{Other}$ represents the features added to the generic machine representation to specify it as a washing machine.
+
+We found a cosine similarity of $\mathbf{0.3515}$ between $\Delta$ and $\vw_{Verb}$. In a 768-dimensional space, any two random vectors would have a similarity near zero. A score of $0.35$ indicates significant alignment. This supports the hypothesis that the model constructs the specific concept by adding features from the ``washing'' concept to the ``machine'' concept. The correlation is not $1.0$, likely because the ``washing'' verb contains features (like ``action'', ``duration'') that are not relevant to the static object ``washing machine'', and are thus filtered out or not added.
